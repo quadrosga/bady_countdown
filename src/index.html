@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de aniversário</title>
+    <link rel="stylesheet" href="styles/main.scss">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/bg_cake.jpg" alt="Bolo de aniversário">
+            <p id="contador-p" class="hero__text">
+                Faltam <span id="contador"></span> para o aniversário
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Audio - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 20,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        16/03/24 às 18hrs
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">
+                    Coloque seu nome na lista de convidados!
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--music">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Música ao vivo</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam ad architecto, porro facilis ullam, quod labore at nobis soluta modi totam, qui ea harum laborum error saepe culpa? Est.
+                </p>
+            </div>
+            <img class="event__image" src="./images/trombone.jpg" alt="trombone">
+        </div>
+    </section>
+
+    <section class="event event--dance event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Competição de dança</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam ad architecto, porro facilis ullam, quod labore at nobis soluta modi totam, qui ea harum laborum error saepe culpa? Est.
+                </p>
+            </div>
+            <img class="event__image" src="./images/danca.jpg" alt="casal dançando">
+        </div>
+    </section>
+
+    <section class="event event--karaoke">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Karaokê</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam ad architecto, porro facilis ullam, quod labore at nobis soluta modi totam, qui ea harum laborum error saepe culpa? Est.
+                </p>
+            </div>
+            <img class="event__image" src="./images/microphone.jpg" alt="microfone">
+        </div>
+    </section>
+
+    <section class="event event--spa event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Mini spa</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam ad architecto, porro facilis ullam, quod labore at nobis soluta modi totam, qui ea harum laborum error saepe culpa? Est.
+                </p>
+            </div>
+            <img class="event__image" src="./images/spa.jpg" alt="óleos de massagem">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
